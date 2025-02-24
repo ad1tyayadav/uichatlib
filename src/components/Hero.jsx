@@ -57,15 +57,16 @@ function Hero() {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
           <Button href="https://www.npmjs.com/package/aibotchat">Get Started</Button>
           <Button href="https://github.com/milliondreamsblog/FOSSHACK" variant="secondary">
             View Documentation
           </Button>
         </div>
 
+
         <div className="relative rounded-xl bg-gradient-to-r from-purple-500/10 to-blue-500/10 p-1 animate-in">
-          <div className="rounded-lg bg-white p-8 backdrop-blur-sm">
+          <div className="rounded-lg bg-white xl:p-8 backdrop-blur-sm">
             <div className="aspect-video rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center relative overflow-hidden">
               <video className="w-full h-full rounded-lg" autoPlay muted loop >
                 <source src=".././Aibotchat.mp4" type="video/mp4" />
