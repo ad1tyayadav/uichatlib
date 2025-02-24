@@ -9,7 +9,7 @@ function Hero() {
         {/* GitHub Stars */}
         <div className="flex justify-center mb-8 animate-in">
           <a
-            href="https://github.com/milliondreamsblog/FOSSHACK"
+            href="https://github.com/ad1tyayadav/uichatlib"
             target="_blank"
             rel="noopener noreferrer"
             className="glow inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white transition-all duration-500 hover:scale-105"
@@ -33,10 +33,10 @@ function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
-          <Button href="https://www.npmjs.com/package/uichatlib?activeTab=readme">
+          <Button href="https://www.npmjs.com/package/aibotchat">
             Get Started
           </Button>
-          <Button href="https://www.npmjs.com/package/uichatlib?activeTab=readme" variant="secondary">
+          <Button href="https://github.com/milliondreamsblog/FOSSHACK" variant="secondary">
             View Documentation
           </Button>
         </div>
