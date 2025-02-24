@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import React from "react";
 
-function NavLink({ to, children, className }) {
+function NavLink({ to, children, className, onClick }) {
   return (
     <Link
       to={to}
-      className={`text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 ${className}`}
+      className={`text-black hover:text-gray-700 px-3 ${className}`}
+      onClick={onClick}
     >
       {children}
     </Link>
