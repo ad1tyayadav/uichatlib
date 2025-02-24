@@ -67,10 +67,11 @@ function Hero() {
         <div className="relative rounded-xl bg-gradient-to-r from-purple-500/10 to-blue-500/10 p-1 animate-in">
           <div className="rounded-lg bg-white p-8 backdrop-blur-sm">
             <div className="aspect-video rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-blue-500/20 animate-gradient"></div>
-              <p className="text-gray-500 dark:text-gray-400 relative z-10">
-                Chat UI Preview Coming Soon
-              </p>
+              <video className="w-full h-full rounded-lg" autoPlay muted loop >
+                <source src=".././Aibotchat.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Github, Twitter } from "lucide-react";
-import { Chatbot } from "aibotchat";
+import { Chatbot } from 'aibotchat'
 
 function Footer() {
   const apiKey = import.meta.env.VITE_GEMINI_KEY;
@@ -10,7 +10,6 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-          {/* Left: Branding & Social Links */}
           <div className="flex flex-col items-center md:items-start">
             <h2 className="text-2xl font-semibold text-gray-900">
               aichatbot
@@ -50,8 +49,8 @@ function Footer() {
 
         </div>
 
-        <div className="">
-          <Chatbot apiKey={apiKey} aiName="Gemini" Title="aibotchat" />
+        <div>
+          <Chatbot apiKey={apiKey} aiName='Gemini' Title="Aibotchat" />
         </div>
 
       </div>
