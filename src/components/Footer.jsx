@@ -49,7 +49,7 @@ function Footer() {
 
         </div>
 
-        <div>
+        <div className="relative z-[1]">
           <Chatbot apiKey={apiKey} aiName='Gemini' Title="Aibotchat" />
         </div>
 
