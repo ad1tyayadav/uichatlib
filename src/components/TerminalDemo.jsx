@@ -1,13 +1,9 @@
-import {
-    AnimatedSpan,
-    Terminal,
-    TypingAnimation,
-} from "../components/magicui/terminal";
+import { AnimatedSpan, Terminal, TypingAnimation } from "../components/magicui/terminal";
 
 export function TerminalDemo() {
     return (
-        <Terminal>
-            <TypingAnimation>&gt; npm install aibotchat@latest</TypingAnimation>
+        <Terminal className="bg-gray-900">
+            <TypingAnimation className="text-green-500">&gt; npm install aibotchat</TypingAnimation>
 
             <AnimatedSpan delay={500} className="text-cyan-500">
                 <span>⚡ Checking package compatibility...</span>
