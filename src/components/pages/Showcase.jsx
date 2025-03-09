@@ -36,7 +36,7 @@ function Showcase() {
         {/* GitHub Star Button */}
         <div className="flex justify-center mb-8 animate-in">
           <a
-            href="https://github.com/ad1tyayadav/uichatlib"
+            href="https://github.com/milliondreamsblog/FOSSHACK"
             target="_blank"
             rel="noopener noreferrer"
             className="glow inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white transition-all duration-500 hover:scale-105"

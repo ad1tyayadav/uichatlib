@@ -7,37 +7,51 @@ import {
 export function TerminalDemo() {
     return (
         <Terminal>
-            <TypingAnimation>&gt; npm i aibotchat</TypingAnimation>
-            <AnimatedSpan delay={500} className="text-green-500">
-                <span>✔ Installing dependencies...</span>
+            <TypingAnimation>&gt; npm install aibotchat@latest</TypingAnimation>
+
+            <AnimatedSpan delay={500} className="text-cyan-500">
+                <span>⚡ Checking package compatibility...</span>
             </AnimatedSpan>
 
-            <AnimatedSpan delay={1500} className="text-green-500">
-                <span>✔ Installing aibotchat...</span>
+            <AnimatedSpan delay={1200} className="text-green-500">
+                <span>✔ Found React v18+ & Tailwind CSS v3+</span>
             </AnimatedSpan>
 
-            <AnimatedSpan delay={2000} className="text-green-500">
-                <span>✔ Verifying project...</span>
+            <AnimatedSpan delay={2000} className="text-purple-500">
+                <span>🌀 Initializing chat interface engine...</span>
             </AnimatedSpan>
 
-            <AnimatedSpan delay={2500} className="text-green-500">
-                <span>✔ Validating codebase...</span>
+            <AnimatedSpan delay={2800} className="text-green-500">
+                <span>✔ Connected to AI service providers</span>
             </AnimatedSpan>
 
-            <AnimatedSpan delay={3000} className="text-green-500">
-                <span>✔ Validating import ChatBot...</span>
+            <AnimatedSpan delay={3500} className="text-yellow-500">
+                <span>⚠ Applying security protocols...</span>
             </AnimatedSpan>
 
-            <AnimatedSpan delay={3500} className="text-green-500">
-                <span>✔ Building AI Bot Chat...</span>
+            <AnimatedSpan delay={4200} className="text-green-500">
+                <span>✔ Encryption layer activated</span>
             </AnimatedSpan>
 
-            <TypingAnimation delay={4000} className="text-muted-foreground">
-                Success! Chat Bot initialization completed.
+            <AnimatedSpan delay={5000} className="text-blue-500">
+                <span>🤖 Loading AI personalities:</span>
+                <span className="ml-2 text-muted-foreground">[Assistant][SupportBot][SalesAI]</span>
+            </AnimatedSpan>
+
+            <AnimatedSpan delay={6000} className="text-green-500">
+                <span>✔ Memory context system initialized</span>
+            </AnimatedSpan>
+
+            <AnimatedSpan delay={6800} className="text-purple-500">
+                <span>🎨 Applying theme configurations...</span>
+            </AnimatedSpan>
+
+            <TypingAnimation delay={7500} className="text-green-500">
+                Success! AI Chat Interface v1.4.2 ready
             </TypingAnimation>
 
-            <TypingAnimation delay={5000} className="text-muted-foreground">
-                You may now add Chat Bot.
+            <TypingAnimation delay={8500} className="text-muted-foreground">
+                Ready to launch your AI experience 🚀
             </TypingAnimation>
         </Terminal>
     );
