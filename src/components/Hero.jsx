@@ -39,7 +39,7 @@ function Hero() {
                 </Button>
                 <Button href="/docs" variant="outline" className="group">
                   <Code className="w-5 h-5 mr-2 text-purple-600 group-hover:text-white" />
-                  Explore API Docs
+                  Explore Docs
                 </Button>
               </div>
             </motion.div>
